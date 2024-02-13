@@ -1,0 +1,124 @@
+
+#start_screen
+Welcome!
+Press return to start.
+
+#login_choice
+How do you want to login?
+1) Login to existing account
+2) Create new account
+
+choice: 
+#login_exist_user
+You chose to login into an existing account.
+
+Enter username: 
+#login_exist_pass
+You chose to login into an existing account.
+
+Enter password: 
+#login_create_user
+You chose to create a new account.
+
+Enter username: 
+#login_create_pass
+You chose to create a new account.
+
+Enter password: 
+#login_create_pass_2
+You chose to create a new account.
+
+Enter password again: 
+#login_create_fname
+You chose to create a new account.
+
+Enter your first name: 
+#login_create_lname
+You chose to create a new account.
+
+Enter your last name: 
+#all_tabs
+Which tab do you want to explore?
+1) Stock Trading tab
+2) Social Feed tab
+3) Learning tab
+4) Leaderboard tab
+5) Profile tab
+6) Quit
+
+choice: 
+#trade_menu
+Please choose an option:
+1) Iterate market
+2) Buy stock
+3) Sell stock
+4) Display Holdings
+5) Go back to all tabs
+
+choice: 
+#trade_iterate
+You chose to iterate the market.
+
+Number of iterations: 
+#trade_buy_tick
+You chose to buy a stock.
+
+Enter stock ticker: 
+#trade_buy_share
+You chose to buy a stock.
+
+Enter number of shares: 
+#trade_sell_tick
+You chose to sell a stock.
+
+Enter stock ticker: 
+#trade_sell_share
+You chose to sell a stock.
+
+Enter number of shares: 
+#trade_holdings
+You chose to display Holdings.
+
+Please choose an option:
+1) Go back
+
+choice: 
+#social_menu
+Social Tab hasn't been implemented yet...
+Please choose an option:
+1) Go back
+
+choice: 
+#learning_menu
+Learning Tab hasn't been implemented yet...
+Please choose an option:
+1) Go back
+
+choice: 
+#leaderboard_menu
+Please choose an option:
+1) Go back
+
+choice: 
+#profile_menu
+Please choose an option:
+1) View another user's profile
+2) Go back
+
+choice: 
+#view_another_profile
+Viewing other profiles hasn't been implemented yet...
+Please choose an option:
+1) Go back
+
+choice: 
+#quit_screen
+Are you sure you want to quit?
+
+Please choose an option:
+1) Yes, quit
+2) No, go back
+
+choice: 
+#end
+Goodbye!

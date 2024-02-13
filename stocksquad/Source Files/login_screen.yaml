@@ -1,0 +1,55 @@
+- View:
+    style:
+      height: 100%
+      width: 100%
+      backgroundColor: lightblue
+      justifyContent: space-evenly
+      flexDirection: column
+      alignItems: center
+    children: 
+      - View:
+          style:
+            height: 400
+            width: 400
+            backgroundColor: royaleblue
+          children:
+            - Image:
+                source: logo.png
+                style:
+                  width: 360
+                  height: 360
+                  borderRadius: 5
+                  alignSelf: center
+      - View:
+          style:
+            height: 450
+            width: 500
+            backgroundColor: royalblue
+            alignItems: center
+            marginTop: 40
+            padding: 20
+            borderWidth: 4
+            borderRadius: 25
+          children:
+            - Text:
+                style:
+                  fontSize: 30
+                  color: white
+                index: {prompt_index}
+
+            - TextInput:
+                index: {input_index}
+                len: 20
+                style:
+                  width: 320
+                  height: 30
+                  marginTop: 30
+                  marginLeft: 30
+                  fontSize: 20
+                  backgroundColor: white
+                  borderColor: gray
+                  borderWidth: 1
+                extra_props:
+                  placeholder: 'type here'
+                  placeholderTextColor: grey
+                  autoFocus: true

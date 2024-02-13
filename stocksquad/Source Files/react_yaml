@@ -1,0 +1,1515 @@
+- View:
+    style:
+      height: 100
+      width: 100%
+      backgroundColor: rgb(24,154,211)
+      flexDirection: row
+    children:
+      - View:
+          style:
+            height: 100
+            width: 100
+            backgroundColor: rgb(24,154,211)
+          children:
+            - Image:
+                source: logo.png
+                style:
+                  width: 90
+                  height: 90
+                  borderRadius: 5
+                  marginTop: 5
+                  alignSelf: center
+      - View:
+          style:
+            height: 100
+            flex: 3
+            backgroundColor: rgb(24,154,211)
+            flexDirection: row
+          children:
+            - View:
+                style:
+                  height: 100
+                  width: 100
+                  borderWidth: 0
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Button:
+                      id: h0
+                      style:
+                        height: 80
+                        width: 80
+                        borderRadius: 5
+                        backgroundColor: lightblue
+                        flexDirection: row
+                        justifyContent: center
+                        alignItems: center
+                      on_touch:
+                        backgroundColor: rgb(255, 200, 0)
+                      children:
+                        - Image:
+                            source: all_tabs.png
+                            style:
+                              width: 50
+                              height: 50
+                              borderRadius: 5
+                              marginTop: 5
+                              alignSelf: center
+            - View:
+                style:
+                  height: 100
+                  width: 100
+                  borderWidth: 0
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Button:
+                      id: t0
+                      style:
+                        height: 80
+                        width: 80
+                        borderRadius: 5
+                        backgroundColor: lightblue
+                        flexDirection: row
+                        justifyContent: center
+                        alignItems: center
+                      on_touch:
+                        backgroundColor: rgb(255, 200, 0)
+                      children:
+                        - Image:
+                            source: social_tab.png
+                            style:
+                              width: 50
+                              height: 50
+                              borderRadius: 5
+                              marginTop: 5
+                              alignSelf: center
+            - View:
+                style:
+                  height: 100
+                  width: 100
+                  borderWidth: 0
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Button:
+                      id: t1
+                      style:
+                        height: 80
+                        width: 80
+                        borderRadius: 5
+                        backgroundColor: lightblue
+                        flexDirection: row
+                        justifyContent: center
+                        alignItems: center
+                      on_touch:
+                        backgroundColor: rgb(255, 200, 0)
+                      children:
+                        - Image:
+                            source: learning_tab.png
+                            style:
+                              width: 50
+                              height: 50
+                              borderRadius: 5
+                              marginTop: 5
+                              alignSelf: center
+            - View:
+                style:
+                  height: 100
+                  width: 100
+                  borderWidth: 0
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Button:
+                      id: t2
+                      style:
+                        height: 80
+                        width: 80
+                        borderRadius: 5
+                        backgroundColor: lightblue
+                        flexDirection: row
+                        justifyContent: center
+                        alignItems: center
+                      on_touch:
+                        backgroundColor: rgb(255, 200, 0)
+                      children:
+                        - Image:
+                            source: trading_tab.png
+                            style:
+                              width: 50
+                              height: 50
+                              borderRadius: 5
+                              marginTop: 5
+                              alignSelf: center
+            - View:
+                style:
+                  height: 100
+                  width: 100
+                  borderWidth: 0
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Button:
+                      id: t3
+                      style:
+                        height: 80
+                        width: 80
+                        borderRadius: 5
+                        backgroundColor: lightblue
+                        flexDirection: row
+                        justifyContent: center
+                        alignItems: center
+                      on_touch:
+                        backgroundColor: rgb(255, 200, 0)
+                      children:
+                        - Image:
+                            source: leaderboard_tab.png
+                            style:
+                              width: 50
+                              height: 50
+                              borderRadius: 5
+                              marginTop: 5
+                              alignSelf: center
+            - View:
+                style:
+                  height: 100
+                  width: 100
+                  borderWidth: 0
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Button:
+                      id: t4
+                      style:
+                        height: 80
+                        width: 80
+                        borderRadius: 5
+                        backgroundColor: lightblue
+                        flexDirection: row
+                        justifyContent: center
+                        alignItems: center
+                      on_touch:
+                        backgroundColor: rgb(255, 200, 0)
+                      children:
+                        - Image:
+                            source: profile_tab.png
+                            style:
+                              width: 50
+                              height: 50
+                              borderRadius: 5
+                              marginTop: 5
+                              alignSelf: center
+      - View:
+          style:
+            height: 100
+            flex: 1
+            backgroundColor: rgb(24,154,211)
+            flexDirection: row
+          children:
+            - View:
+                style:
+                  height: 100
+                  flex: 2
+                  borderWidth: 0
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Text:
+                      style:
+                        fontSize: 20
+                        color: white
+                      index: 565
+            - View:
+                style:
+                  height: 100
+                  width: 100
+                  borderWidth: 0
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Button:
+                      id: l0
+                      style:
+                        height: 80
+                        width: 80
+                        borderRadius: 5
+                        backgroundColor: lightblue
+                        flexDirection: row
+                        justifyContent: center
+                        alignItems: center
+                      on_touch:
+                        backgroundColor: rgb(255, 200, 0)
+                      children:
+                        - Image:
+                            source: logout.png
+                            style:
+                              width: 50
+                              height: 50
+                              borderRadius: 5
+                              marginTop: 5
+                              alignSelf: center
+
+- View:
+    style:
+      height: 60%
+      width: 100%
+      backgroundColor: lightblue
+      alignItems: center
+    children:
+      - View:
+          style:
+            height: 500
+            width: 1400
+            flexDirection: column
+            borderWidth: 0
+            marginTop: 40
+          children:
+          # Header
+            - View:
+                style:
+                  flex: 2
+                  flexDirection: row
+                children:
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: grey
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 25
+                              color: black
+                              textAlign: center
+                              fontWeight: bold
+                              marginTop: 20
+                            index: 25
+                  - View:
+                      style:
+                        flex: 3
+                        backgroundColor: grey
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 25
+                              color: black
+                              textAlign: center
+                              fontWeight: bold
+                              marginTop: 20
+                            index: 32
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: grey
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 25
+                              color: black
+                              textAlign: center
+                              fontWeight: bold
+                              marginTop: 20
+                            index: 45
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: grey
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 25
+                              color: black
+                              textAlign: center
+                              fontWeight: bold
+                              marginTop: 20
+                            index: 56
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: grey
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 25
+                              color: black
+                              textAlign: center
+                              fontWeight: bold
+                              marginTop: 20
+                            index: 65
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: grey
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 25
+                              color: black
+                              textAlign: center
+                              fontWeight: bold
+                              marginTop: 20
+                            index: 77
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: grey
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 25
+                              color: black
+                              textAlign: center
+                              fontWeight: bold
+                              marginTop: 20
+                            index: 82
+                  - View:
+                      style:
+                        flex: 2
+                        borderWidth: 0
+                  - View:
+                      style:
+                        flex: 2
+                        borderWidth: 0
+          # Company 0
+            - View:
+                style:
+                  flex: 2
+                  flexDirection: row
+                children:
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 309
+                  - View:
+                      style:
+                        flex: 3
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 314
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 320
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 327
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 332
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 337
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 344
+                  - View:
+                      style:
+                        flex: 2
+                        borderWidth: 0
+                      children:
+                        - Button:
+                            id: b0
+                            style:
+                              marginTop: 15
+                              marginLeft: 20
+                              height: 50
+                              width: 100
+                              borderRadius: 25
+                              backgroundColor: green
+                              flexDirection: row
+                              justifyContent: center
+                            on_touch:
+                              backgroundColor: rgb(255, 200, 0)
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 30
+                                    color: black
+                                    marginTop: 5
+                                  index: 99
+                  - View:
+                      style:
+                        flex: 2
+                        borderWidth: 0
+                      children:
+                        - Button:
+                            id: s0
+                            style:
+                              marginTop: 15
+                              marginLeft: 20
+                              height: 50
+                              width: 100
+                              borderRadius: 25
+                              backgroundColor: red
+                              flexDirection: row
+                              justifyContent: center
+                            on_touch:
+                              backgroundColor: rgb(255, 200, 0)
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 30
+                                    color: black
+                                    marginTop: 5
+                                  index: 103
+          # Company 1
+            - View:
+                style:
+                  flex: 2
+                  flexDirection: row
+                children:
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 351
+                  - View:
+                      style:
+                        flex: 3
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 356
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 362
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 369
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 374
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 379
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 386
+                  - View:
+                      style:
+                        flex: 2
+                        borderWidth: 0
+                      children:
+                        - Button:
+                            id: b1
+                            style:
+                              marginTop: 15
+                              marginLeft: 20
+                              height: 50
+                              width: 100
+                              borderRadius: 25
+                              backgroundColor: green
+                              flexDirection: row
+                              justifyContent: center
+                            on_touch:
+                              backgroundColor: rgb(255, 200, 0)
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 30
+                                    color: black
+                                    marginTop: 5
+                                  index: 99
+                  - View:
+                      style:
+                        flex: 2
+                        borderWidth: 0
+                      children:
+                        - Button:
+                            id: s1
+                            style:
+                              marginTop: 15
+                              marginLeft: 20
+                              height: 50
+                              width: 100
+                              borderRadius: 25
+                              backgroundColor: red
+                              flexDirection: row
+                              justifyContent: center
+                            on_touch:
+                              backgroundColor: rgb(255, 200, 0)
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 30
+                                    color: black
+                                    marginTop: 5
+                                  index: 103
+          # Company 2
+            - View:
+                style:
+                  flex: 2
+                  flexDirection: row
+                children:
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 392
+                  - View:
+                      style:
+                        flex: 3
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 397
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 404
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 410
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 415
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 420
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 427
+                  - View:
+                      style:
+                        flex: 2
+                        borderWidth: 0
+                      children:
+                        - Button:
+                            id: b2
+                            style:
+                              marginTop: 15
+                              marginLeft: 20
+                              height: 50
+                              width: 100
+                              borderRadius: 25
+                              backgroundColor: green
+                              flexDirection: row
+                              justifyContent: center
+                            on_touch:
+                              backgroundColor: rgb(255, 200, 0)
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 30
+                                    color: black
+                                    marginTop: 5
+                                  index: 99
+                  - View:
+                      style:
+                        flex: 2
+                        borderWidth: 0
+                      children:
+                        - Button:
+                            id: s2
+                            style:
+                              marginTop: 15
+                              marginLeft: 20
+                              height: 50
+                              width: 100
+                              borderRadius: 25
+                              backgroundColor: red
+                              flexDirection: row
+                              justifyContent: center
+                            on_touch:
+                              backgroundColor: rgb(255, 200, 0)
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 30
+                                    color: black
+                                    marginTop: 5
+                                  index: 103
+          # Company 3
+            - View:
+                style:
+                  flex: 2
+                  flexDirection: row
+                children:
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 433
+                  - View:
+                      style:
+                        flex: 3
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 438
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 452
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 458
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 463
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 468
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 474
+                  - View:
+                      style:
+                        flex: 2
+                        borderWidth: 0
+                      children:
+                        - Button:
+                            id: b3
+                            style:
+                              marginTop: 15
+                              marginLeft: 20
+                              height: 50
+                              width: 100
+                              borderRadius: 25
+                              backgroundColor: green
+                              flexDirection: row
+                              justifyContent: center
+                            on_touch:
+                              backgroundColor: rgb(255, 200, 0)
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 30
+                                    color: black
+                                    marginTop: 5
+                                  index: 99
+                  - View:
+                      style:
+                        flex: 2
+                        borderWidth: 0
+                      children:
+                        - Button:
+                            id: s3
+                            style:
+                              marginTop: 15
+                              marginLeft: 20
+                              height: 50
+                              width: 100
+                              borderRadius: 25
+                              backgroundColor: red
+                              flexDirection: row
+                              justifyContent: center
+                            on_touch:
+                              backgroundColor: rgb(255, 200, 0)
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 30
+                                    color: black
+                                    marginTop: 5
+                                  index: 103
+          # Company 4
+            - View:
+                style:
+                  flex: 2
+                  flexDirection: row
+                children:
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 480
+                  - View:
+                      style:
+                        flex: 3
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 485
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 492
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 498
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 503
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 508
+                  - View:
+                      style:
+                        flex: 2
+                        backgroundColor: white
+                        borderWidth: 2
+                      children:
+                        - Text:
+                            style:
+                              fontSize: 30
+                              color: black
+                              textAlign: center
+                              marginTop: 20
+                            index: 515
+                  - View:
+                      style:
+                        flex: 2
+                        borderWidth: 0
+                      children:
+                        - Button:
+                            id: b4
+                            style:
+                              marginTop: 15
+                              marginLeft: 20
+                              height: 50
+                              width: 100
+                              borderRadius: 25
+                              backgroundColor: green
+                              flexDirection: row
+                              justifyContent: center
+                            on_touch:
+                              backgroundColor: rgb(255, 200, 0)
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 30
+                                    color: black
+                                    marginTop: 5
+                                  index: 99
+                  - View:
+                      style:
+                        flex: 2
+                        borderWidth: 0
+                      children:
+                        - Button:
+                            id: s4
+                            style:
+                              marginTop: 15
+                              marginLeft: 20
+                              height: 50
+                              width: 100
+                              borderRadius: 25
+                              backgroundColor: red
+                              flexDirection: row
+                              justifyContent: center
+                            on_touch:
+                              backgroundColor: rgb(255, 200, 0)
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 30
+                                    color: black
+                                    marginTop: 5
+                                  index: 103
+
+- View:
+    style:
+      height: 70%
+      width: 100%
+      backgroundColor: lightblue
+      justifyContent: space-evenly
+      flexDirection: row
+    children:  
+      - View:
+          style:
+            height: 450
+            width: 500
+            backgroundColor: royalblue
+            alignItems: center
+            marginTop: 40
+            padding: 20
+            borderWidth: 4
+            borderRadius: 25
+          children:
+            - Text:
+                style:
+                  fontSize: 30
+                  color: white
+                index: 108
+
+            - TextInput:
+                index: 0
+                len: 20
+                style:
+                  width: 320
+                  height: 30
+                  marginTop: 30
+                  marginLeft: 30
+                  fontSize: 20
+                  backgroundColor: white
+                  borderColor: gray
+                  borderWidth: 1
+                extra_props:
+                  placeholder: 'type here'
+                  placeholderTextColor: grey
+                  autoFocus: true
+      - View:
+          style:
+            height: 450
+            width: 750
+            backgroundColor: royalblue
+            alignItems: center
+            marginTop: 40
+            padding: 20
+            borderWidth: 4
+            borderRadius: 25
+          children:
+            - Text:
+                style:
+                  fontSize: 20
+                  color: white
+                index: 565
+            - View:
+                style:
+                  height: 300
+                  width: 550
+                  flexDirection: column
+                  borderWidth: 2
+                  marginTop: 20
+                  backgroundColor: grey
+                children:
+                  - View:
+                      style:
+                        flex: 1
+                        flexDirection: row
+                        backgroundColor: lightgrey
+                        borderWidth: 1
+                      children:
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    fontWeight: bold
+                                    marginTop: 10
+                                  index: 25
+                        - View:
+                            style:
+                              flex: 2
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    fontWeight: bold
+                                    marginTop: 10
+                                  index: 32
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    fontWeight: bold
+                                    marginTop: 10
+                                  index: 86
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    fontWeight: bold
+                                    marginTop: 10
+                                  index: 93
+                  - View:
+                      style:
+                        flex: 1
+                        flexDirection: row
+                        backgroundColor: white
+                        borderWidth: 1
+                      children:
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 309
+                        - View:
+                            style:
+                              flex: 2
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 314
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 521
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 523
+                  - View:
+                      style:
+                        flex: 1
+                        flexDirection: row
+                        backgroundColor: white
+                        borderWidth: 1
+                      children:
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 351
+                        - View:
+                            style:
+                              flex: 2
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 356
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 530
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 532
+                  - View:
+                      style:
+                        flex: 1
+                        flexDirection: row
+                        backgroundColor: white
+                        borderWidth: 1
+                      children:
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 392
+                        - View:
+                            style:
+                              flex: 2
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 397
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 537
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 539
+                  - View:
+                      style:
+                        flex: 1
+                        flexDirection: row
+                        backgroundColor: white
+                        borderWidth: 1
+                      children:
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 433
+                        - View:
+                            style:
+                              flex: 2
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 438
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 546
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 548
+                  - View:
+                      style:
+                        flex: 1
+                        flexDirection: row
+                        backgroundColor: white
+                        borderWidth: 1
+                      children:
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 480
+                        - View:
+                            style:
+                              flex: 2
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 485
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 555
+                        - View:
+                            style:
+                              flex: 1
+                              borderWidth: 1
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 20
+                                    color: black
+                                    textAlign: center
+                                    marginTop: 10
+                                  index: 558

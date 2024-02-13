@@ -1,0 +1,307 @@
+- View:
+    style:
+      height: 100
+      width: 100%
+      backgroundColor: royalblue
+      flexDirection: row
+    children:
+      - View:
+          style:
+            height: 100
+            width: 100
+            backgroundColor: royaleblue
+          children:
+            - Image:
+                source: logo.png
+                style:
+                  width: 90
+                  height: 90
+                  borderRadius: 5
+                  marginTop: 5
+                  alignSelf: center
+      - View:
+          style:
+            height: 100
+            flex: 3
+            backgroundColor: royalblue
+            flexDirection: row
+          children:
+            - View:
+                style:
+                  height: 100
+                  width: 100
+                  borderWidth: 0
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Button:
+                      id: h0
+                      style:
+                        height: 80
+                        width: 80
+                        borderRadius: 5
+                        backgroundColor: lightblue
+                        flexDirection: row
+                        justifyContent: center
+                        alignItems: center
+                      on_touch:
+                        backgroundColor: rgb(255, 200, 0)
+                      children:
+                        - Image:
+                            source: all_tabs.png
+                            style:
+                              width: 50
+                              height: 50
+                              borderRadius: 5
+                              marginTop: 5
+                              alignSelf: center
+            - View:
+                style:
+                  height: 100
+                  width: 100
+                  borderWidth: 0
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Button:
+                      id: t0
+                      style:
+                        height: 80
+                        width: 80
+                        borderRadius: 5
+                        backgroundColor: lightblue
+                        flexDirection: row
+                        justifyContent: center
+                        alignItems: center
+                      on_touch:
+                        backgroundColor: rgb(255, 200, 0)
+                      children:
+                        - Image:
+                            source: social_tab.png
+                            style:
+                              width: 50
+                              height: 50
+                              borderRadius: 5
+                              marginTop: 5
+                              alignSelf: center
+            - View:
+                style:
+                  height: 100
+                  width: 100
+                  borderWidth: 0
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Button:
+                      id: t1
+                      style:
+                        height: 80
+                        width: 80
+                        borderRadius: 5
+                        backgroundColor: lightblue
+                        flexDirection: row
+                        justifyContent: center
+                        alignItems: center
+                      on_touch:
+                        backgroundColor: rgb(255, 200, 0)
+                      children:
+                        - Image:
+                            source: learning_tab.png
+                            style:
+                              width: 50
+                              height: 50
+                              borderRadius: 5
+                              marginTop: 5
+                              alignSelf: center
+            - View:
+                style:
+                  height: 100
+                  width: 100
+                  borderWidth: 0
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Button:
+                      id: t2
+                      style:
+                        height: 80
+                        width: 80
+                        borderRadius: 5
+                        backgroundColor: lightblue
+                        flexDirection: row
+                        justifyContent: center
+                        alignItems: center
+                      on_touch:
+                        backgroundColor: rgb(255, 200, 0)
+                      children:
+                        - Image:
+                            source: trading_tab.png
+                            style:
+                              width: 50
+                              height: 50
+                              borderRadius: 5
+                              marginTop: 5
+                              alignSelf: center
+            - View:
+                style:
+                  height: 100
+                  width: 100
+                  borderWidth: 0
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Button:
+                      id: t3
+                      style:
+                        height: 80
+                        width: 80
+                        borderRadius: 5
+                        backgroundColor: lightblue
+                        flexDirection: row
+                        justifyContent: center
+                        alignItems: center
+                      on_touch:
+                        backgroundColor: rgb(255, 200, 0)
+                      children:
+                        - Image:
+                            source: leaderboard_tab.png
+                            style:
+                              width: 50
+                              height: 50
+                              borderRadius: 5
+                              marginTop: 5
+                              alignSelf: center
+            - View:
+                style:
+                  height: 100
+                  width: 100
+                  borderWidth: 0
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Button:
+                      id: t4
+                      style:
+                        height: 80
+                        width: 80
+                        borderRadius: 5
+                        backgroundColor: lightblue
+                        flexDirection: row
+                        justifyContent: center
+                        alignItems: center
+                      on_touch:
+                        backgroundColor: rgb(255, 200, 0)
+                      children:
+                        - Image:
+                            source: profile_tab.png
+                            style:
+                              width: 50
+                              height: 50
+                              borderRadius: 5
+                              marginTop: 5
+                              alignSelf: center
+      - View:
+          style:
+            height: 100
+            flex: 1
+            backgroundColor: royalblue
+            flexDirection: row
+          children:
+            - View:
+                style:
+                  height: 100
+                  flex: 2
+                  borderWidth: 0
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Text:
+                      style:
+                        fontSize: 20
+                        color: white
+                      index: {end_index}
+            - View:
+                style:
+                  height: 100
+                  width: 100
+                  borderWidth: 0
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Button:
+                      id: l0
+                      style:
+                        height: 80
+                        width: 80
+                        borderRadius: 5
+                        backgroundColor: lightblue
+                        flexDirection: row
+                        justifyContent: center
+                        alignItems: center
+                      on_touch:
+                        backgroundColor: rgb(255, 200, 0)
+                      children:
+                        - Image:
+                            source: logout.png
+                            style:
+                              width: 50
+                              height: 50
+                              borderRadius: 5
+                              marginTop: 5
+                              alignSelf: center
+
+- View:
+    style:
+      height: 100%
+      width: 100%
+      backgroundColor: lightblue
+      justifyContent: space-evenly
+      flexDirection: column
+      alignItems: center
+    children: 
+      - View:
+          style:
+            height: 400
+            width: 400
+            backgroundColor: royaleblue
+          children:
+            - Image:
+                source: logo.png
+                style:
+                  width: 360
+                  height: 360
+                  borderRadius: 5
+                  alignSelf: center
+      - View:
+          style:
+            height: 450
+            width: 500
+            backgroundColor: royalblue
+            alignItems: center
+            marginTop: 40
+            padding: 20
+            borderWidth: 4
+            borderRadius: 25
+          children:
+            - Text:
+                style:
+                  fontSize: 30
+                  color: white
+                index: {prompt_index}
+
+            - TextInput:
+                index: {input_index}
+                len: 20
+                style:
+                  width: 320
+                  height: 30
+                  marginTop: 30
+                  marginLeft: 30
+                  fontSize: 20
+                  backgroundColor: white
+                  borderColor: gray
+                  borderWidth: 1
+                extra_props:
+                  placeholder: 'type here'
+                  placeholderTextColor: grey
+                  autoFocus: true
